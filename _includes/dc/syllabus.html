@@ -200,7 +200,25 @@ The syllabus for the different curricula are listed here:
     </div>
 </div>
 
+{% elsif site.curriculum == "dc-image" %}
 
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-image">Image Processing with Python</h3>
+    <ul>
+      <li><a href="https://datacarpentry.org/image-processing/01-introduction/index.html">Introdcution to Image Processing</a></li>
+      <li><a href="https://datacarpentry.org/image-processing/02-image-basics/index.html">Image Basics</a></li>
+      <li><a href="https://datacarpentry.org/image-processing/03-skimage-images/index.html">Image Representation in <code>skimage</code></a></li>
+      <li><a href="https://datacarpentry.org/image-processing/04-drawing/index.html">Drawing and Bitwise Operations</a></li>
+      <li><a href="https://datacarpentry.org/image-processing/05-creating-histograms/index.html">Creating Histograms</a></li>
+      <li><a href="https://datacarpentry.org/image-processing/06-blurring/index.html">Blurring Images</a></li>
+      <li><a href="https://datacarpentry.org/image-processing/07-thresholding/index.html">Thresholding</li>
+      <li><a href="https://datacarpentry.org/image-processing/08-edge-detection/index.html">Edge Detection</a></li>
+      <li><a href="https://datacarpentry.org/image-processing/09-connected-components/index.html">Connected Components</a></li>
+      <li><a href="https://datacarpentry.org/image-processing/10-challenges/index.html">Challenges</a></li>
+    </ul>
+  </div>
+</div>
 
 {% else %}
 {% include warning-curriculum.html %}
