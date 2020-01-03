@@ -176,6 +176,108 @@ The schedule for the different curricula are listed here:
     </table>
   </div>
 </div>
+{% elsif site.curriculum == "dc-image" %}
+
+<div class="alert">
+  This curriculum is under active development and hasn't been taught many times before. 
+  Subsequently, the workshop schedule may deviate from that given below.
+  However, we will try our best to keep the breaks scheduled as listed below.
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr>
+	<td>Before starting</td>
+	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr>
+        <td>Morning</td>
+        <td><a href="https://datacarpentry.org/image-processing/01-introduction/index.html">Introduction to Image Processing</a>
+        </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td><a href="https://datacarpentry.org/image-processing/02-image-basics/index.html">Image Basics</a></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td><a href="https://datacarpentry.org/image-processing/03-skimage-images/index.html">Image Representation in <code>skimage</code></a></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td>Morning break</td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td><a href="https://datacarpentry.org/image-processing/04-drawing/index.html">Drawing and Bitwise Operations</a></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td>Lunch</td>
+      </tr>
+      <tr>
+        <td>Afternoon</td>
+        <td><a href="https://datacarpentry.org/image-processing/05-creating-histograms/index.html">Creating Histograms</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Afternoon Break</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://datacarpentry.org/image-processing/06-blurring/index.html">Blurring Images</a></td>
+      </tr>
+      <tr>
+        <td>Evening</td>
+        <td>END</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="col-md-6">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+      <tr>
+        <td>Morning</td>
+        <td><a href="https://datacarpentry.org/image-processing/07-thresholding/index.html">Thresholding</a>
+        </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td>Morning Break</td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td><a href="https://datacarpentry.org/image-processing/08-edge-detection/index.html">Edge Detection</a></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td>Lunch</td>
+      </tr>
+      <tr>
+        <td>Afternoon</td>
+        <td><a href="https://datacarpentry.org/image-processing/09-connected-components/index.html">Connected Components</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Afternoon Break</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://datacarpentry.org/image-processing/10-challenges/index.html">Challenges</td>
+      </tr>
+      <tr>
+	<td>Evening</td>
+	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      </tr>
+      <tr>
+	<td> </td>
+	<td> END </td>
+      </tr>
+    </table>
+  </div>
+</div>
 
 {% else %}
 {% include warning-curriculum.html %}
